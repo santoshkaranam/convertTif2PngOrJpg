@@ -5,10 +5,14 @@ This is a powershell script to convert tif files to jpg format or png format. It
 
 1. Convert to jpg
 
-. ./convert.ps1    // includes the function
+```bash
+. ./convert.ps1   
 ConvertImage -path 'E:\projects\files' -jpgOrpng 'jpg' 
+```
 
 2. Convert to png
 
-. ./convert.ps1   // includes the function
+```bash
+. ./convert.ps1   
 ConvertImage -path 'E:\projects\files' -jpgOrpng 'png'
+```
